@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    font-family: 'Roboto';
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.wrap {
+    width: 400px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border: 2px solid lightgray;
+    border-radius: .2rem;
+}
+div.section {
+    padding: 1rem;
+}
+h3 {
+    margin: 0;
+    font-weight: 400;
+}
+input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    padding: .5rem .5rem;
+    margin: 1rem 0;
+}
+input[type="button"] {
+    border: none;
+    border-radius: .15rem;
+    background-color: black;
+    color: white;
+    padding: .5rem 1rem;
+    font-size: .75rem;
+    cursor: pointer;
+}
+input[type="button"].btnGreen {
+    background-color: #27a69b;
+}
+input[type="button"]:hover {
+    opacity: .8;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: lightgray;
+    margin: 1rem 0;
+}
+div.singleTask {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+    font-size: .8rem;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    user-select: none;
+}
+div.singleTask:first-child {
+    border-top-left-radius: .2rem;
+    border-top-right-radius: .2rem;
+}
+div.singleTask:last-child {
+    border-bottom: 1px solid lightgray;
+    border-bottom-left-radius: .2rem;
+    border-bottom-right-radius: .2rem;
+    margin-bottom: 1rem;
+}
+i { 
+    margin-left: 1rem;
+    color: orange;
+    cursor: pointer;
+}
+span {
+    display: inline-block;
+    overflow: auto;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}

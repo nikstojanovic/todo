@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task manager</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="section">
+            <h3>Task List</h3>
+            <input id="txtNewTask" type="text" placeholder="New Task" autocomplete="off" autofocus><br>
+            <input id="btnNewTask" class="btnGreen" type="button" value="ADD TASK">
+        </div>
+        <hr>
+        <div class="section">
+            <h3>Tasks</h3>
+            <input id="txtFilterTasks" type="text" placeholder="Filter Tasks" autocomplete="off"><br>
+            <div id="tasksContainer">
+            </div>
+            <input id="btnClearTasks" type="button" value="CLEAR TASKS">
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
